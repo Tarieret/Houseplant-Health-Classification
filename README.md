@@ -56,6 +56,7 @@ New Image → S3 (uploads/) → Lambda → Rekognition Inference → S3 (results
 | F1 Score | 0.97 | 0.89 |
 | **Overall Accuracy** | **0.95** | |
 
+
 ![Confusion Matrix](assets/img/confusion_matrix.png)
 
 ## Setup
