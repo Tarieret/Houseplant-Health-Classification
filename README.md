@@ -35,12 +35,28 @@ New Image → S3 (uploads/) → Lambda → Rekognition Inference → S3 (results
 7. Lambda function deployed for automated inference
 
 ## Results
+
+### Classification Report
+```
+                 precision    recall  f1-score   support
+
+       healthy       0.93      1.00      0.97        14
+     unhealthy       1.00      0.80      0.89         5
+
+      accuracy                           0.95        19
+     macro avg       0.97      0.90      0.93        19
+  weighted avg       0.95      0.95      0.95        19
+```
+
+### Summary Table
 | Metric | Healthy | Unhealthy |
 |--------|---------|-----------|
 | Precision | 0.93 | 1.00 |
 | Recall | 1.00 | 0.80 |
 | F1 Score | 0.97 | 0.89 |
 | **Overall Accuracy** | **0.95** | |
+
+![Confusion Matrix](assets/img/confusion_matrix.png)
 
 ## Setup
 ### Prerequisites
