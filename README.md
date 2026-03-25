@@ -86,4 +86,4 @@ pip install boto3 Pillow scikit-learn albumentations matplotlib pandas numpy tqd
 - boto3 for programmatic AWS resource management
 
 ## Author
-Tarie Retimitimi
+Tariere Timitimi
