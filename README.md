@@ -1,4 +1,6 @@
 # Houseplant Health Classification Using Amazon Rekognition
+![storefront](assets/img/storefront.png)
+![Plant](assets/img/Plant.png)
 
 ## Overview
 An end-to-end computer vision pipeline that classifies houseplant health conditions (healthy vs unhealthy) using Amazon Rekognition Custom Labels. Built with a production-style architecture including automated inference via AWS Lambda.
