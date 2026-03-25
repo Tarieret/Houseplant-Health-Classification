@@ -25,7 +25,7 @@ New Image → S3 (uploads/) → Lambda → Rekognition Inference → S3 (results
 ## Dataset
 - 91 original images (67 healthy, 24 unhealthy) collected from personal houseplants
 - Augmented to 201 training images to address class imbalance
-- Available on Kaggle: [link]
+- Available on Kaggle: [https://www.kaggle.com/datasets/tarieretimitimi/houseplant-health-classification-dataset]
 
 ## Pipeline
 1. Images organized into healthy/unhealthy folders
