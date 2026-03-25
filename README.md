@@ -85,5 +85,12 @@ pip install boto3 Pillow scikit-learn albumentations matplotlib pandas numpy tqd
 - Serverless inference with AWS Lambda
 - boto3 for programmatic AWS resource management
 
+## Acknowledgements
+
+Training images were collected in person at two plant nurseries whose staff were kind enough to allow photography:
+
+- **Holiday Foliage Orchids and Plants** — 146 West 28th Street, New York, NY
+- **Redwood Flower Shop** — New Brunswick, NJ
+
 ## Author
 Tariere Timitimi
