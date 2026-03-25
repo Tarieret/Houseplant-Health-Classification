@@ -91,6 +91,3 @@ Training images were collected in person at two plant nurseries whose staff were
 
 - **Holiday Foliage Orchids and Plants** — 146 West 28th Street, New York, NY
 - **Redwood Flower Shop** — New Brunswick, NJ
-
-## Author
-Tariere Timitimi
