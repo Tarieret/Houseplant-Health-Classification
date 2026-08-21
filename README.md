@@ -19,17 +19,17 @@ Local Images → S3 Upload → Rekognition Custom Labels Training
 New Image → S3 (uploads/) → Lambda → Rekognition Inference → S3 (results/)
 
 ## Tech Stack
-- **Python** — data preparation, augmentation, pipeline orchestration
-- **Amazon Rekognition Custom Labels** — image classification model
-- **Amazon S3** — image and results storage
-- **AWS Lambda** — serverless inference pipeline
-- **IAM** — permissions and security
-- **scikit-learn** — train/test split and model evaluation
-- **Albumentations** — image augmentation
-- **boto3** — AWS SDK for Python
+- **Python** - data preparation, augmentation, pipeline orchestration
+- **Amazon Rekognition Custom Labels** - image classification model
+- **Amazon S3** - image and results storage
+- **AWS Lambda** - serverless inference pipeline
+- **IAM** - permissions and security
+- **scikit-learn** - train/test split and model evaluation
+- **Albumentations** - image augmentation
+- **boto3** - AWS SDK for Python
 
 ## Dataset
-- 91 original images (67 healthy, 24 unhealthy) collected from personal houseplants
+- 91 original images (67 healthy, 24 unhealthy) collected from personal houseplants & plant nurseries/shops
 - Augmented to 201 training images to address class imbalance
 - 80/20 train/test split with stratification
 - Available on Kaggle: [Houseplant Health Classification Dataset](https://www.kaggle.com/datasets/tarieretimitimi/houseplant-health-classification-dataset)
