@@ -7,8 +7,3 @@ pillow==12.3.0
 scikit-learn==1.9.1
 seaborn==0.13.2
 tqdm==4.70.1
-
-# albumentations is used in the notebook but repeatedly failed to install
-# locally (pip dependency resolution stalls). Classification itself runs
-# remotely via AWS Rekognition (boto3), so this isn't required to use the
-# project as intended — only to exactly reproduce local augmentation steps.
